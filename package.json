@@ -1,0 +1,23 @@
+{
+    "name": "pale-green",
+    "publisher": "saahilclaypool",
+    "displayName": "pale-green",
+    "repository": {"type": "git", "url": "https://github.com/SaahilClaypool/pale-green"},
+    "description": "pale green theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "pale green",
+                "uiTheme": "vs",
+                "path": "./themes/pale green-color-theme.json"
+            }
+        ]
+    }
+}
