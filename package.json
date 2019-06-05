@@ -2,7 +2,10 @@
     "name": "pale-green",
     "publisher": "saahilclaypool",
     "displayName": "pale-green",
-    "repository": {"type": "git", "url": "https://github.com/SaahilClaypool/pale-green"},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SaahilClaypool/pale-green"
+    },
     "description": "pale green theme",
     "version": "0.0.1",
     "engines": {
