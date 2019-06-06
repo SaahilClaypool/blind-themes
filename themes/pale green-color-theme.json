@@ -13,11 +13,11 @@
 		"editor.findMatchHighlightBackground": "#edc9d8",
 		"editor.foreground": "#000000",
 		"editor.lineHighlightBackground": "#e8f0e8",
-		"editor.selectionBackground": "#c9d0d9",
+		"editor.selectionBackground": "#d9dae9",
 		"editorCursor.background": "#edf5ed",
 		"editorCursor.foreground": "#800080",
 		"editorGroup.border": "#c0d0c0",
-		"editorGroup.dropBackground": "#c9d0d988",
+		"editorGroup.dropBackground": "#d9dae988",
 		"editorGroupHeader.tabsBackground": "#edf5ed",
 		"editorIndentGuide.activeBackground": "#c0d0c0",
 		"editorIndentGuide.background": "#dde0dd",
@@ -51,7 +51,7 @@
 		"pickerGroup.border": "#749351",
 		"pickerGroup.foreground": "#a6b39b",
 		"progressBar.background": "#705697",
-		"selection.background": "#c9d0d9",
+		"selection.background": "#d9dae9",
 		"sideBar.background": "#eaf0ea",
 		"sideBarSectionHeader.background": "#dde5dd",
 		"statusBar.background": "#eaf0ea",
@@ -85,7 +85,7 @@
 		//"editor.findRangeHighlightBackground": "#b4b4b44d",
 		//"editor.focusedStackFrameHighlightBackground": "#cee7ce73",
 		//"editor.hoverHighlightBackground": "#add6ff26",
-		//"editor.inactiveSelectionBackground": "#c9d0d980",
+		//"editor.inactiveSelectionBackground": "#d9dae980",
 		//"editor.lineHighlightBorder": "#eeeeee",
 		//"editor.rangeHighlightBackground": "#fdff0033",
 		//"editor.selectionHighlightBackground": "#dfe3e999",
@@ -283,7 +283,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#AAAAAA"
+				"foreground": "#444444"
 			}
 		},
 		{
@@ -302,7 +302,7 @@
 				"comment.block.documentation punctuation.definition.comment "
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#046C07"
 			}
 		},
 		{
@@ -324,7 +324,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#444444"
 			}
 		},
 		{
@@ -355,7 +355,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#9C5D27"
+				"foreground": "#111111"
 			}
 		},
 		{
@@ -420,14 +420,14 @@
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#046C07"
 			}
 		},
 		{
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#644474"
 			}
 		},
 		{
@@ -448,7 +448,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#444444"
 			}
 		},
 		{
@@ -543,7 +543,7 @@
 				"support.constant.property-value"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#046C07"
 			}
 		},
 		{
@@ -655,7 +655,7 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#4B69C6"
+				"foreground": "#1111aa"
 			}
 		},
 		{
@@ -665,7 +665,7 @@
 				"markup.italic"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#046C07"
 			}
 		},
 		{
