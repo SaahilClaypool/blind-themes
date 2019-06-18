@@ -283,7 +283,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#444444"
+				"foreground": "#777777"
 			}
 		},
 		{
@@ -324,7 +324,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#444444"
+				"foreground": "#aa5555"
 			}
 		},
 		{
@@ -413,7 +413,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#9C5D27"
+				"foreground": "#7C372C"
 			}
 		},
 		{
@@ -441,7 +441,7 @@
 			"name": "Strings: Symbols",
 			"scope": "constant.other.symbol",
 			"settings": {
-				"foreground": "#9C5D27"
+				"foreground": "#7C372C"
 			}
 		},
 		{
@@ -510,7 +510,7 @@
 				"punctuation.definition.entity"
 			],
 			"settings": {
-				"foreground": "#9C5D27"
+				"foreground": "#7C372C"
 			}
 		},
 		{
@@ -532,7 +532,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#9C5D27"
+				"foreground": "#7C372C"
 			}
 		},
 		{
@@ -673,7 +673,7 @@
 			"scope": "markup.inline.raw",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#9C5D27"
+				"foreground": "#7C372C"
 			}
 		},
 		{
