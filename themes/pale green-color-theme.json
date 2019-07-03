@@ -88,7 +88,7 @@
 		//"editor.inactiveSelectionBackground": "#d9dae980",
 		//"editor.lineHighlightBorder": "#eeeeee",
 		//"editor.rangeHighlightBackground": "#fdff0033",
-		//"editor.selectionHighlightBackground": "#dfe3e999",
+		"editor.selectionHighlightBackground": "#e4d9e9fa",
 		//"editor.snippetFinalTabstopHighlightBorder": "#0a326480",
 		//"editor.snippetTabstopHighlightBackground": "#0a326433",
 		//"editor.stackFrameHighlightBackground": "#ffff6673",
