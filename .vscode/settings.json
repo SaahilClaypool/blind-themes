@@ -1,4 +1,6 @@
 {
     "python.pythonPath": "C:\\Python36\\python.exe",
-    "python.linting.enabled": false
+    "python.linting.enabled": false,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "editor.accessibilitySupport": "off"
 }
