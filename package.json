@@ -27,6 +27,11 @@
                 "path": "./themes/solar-saa-theme.json"
             },
             {
+                "label": "solar-blind",
+                "uiTheme": "vs",
+                "path": "./themes/solar-blind-theme.json"
+            },
+            {
                 "label": "light-saa",
                 "uiTheme": "vs",
                 "path": "./themes/light-saa-theme.json"
