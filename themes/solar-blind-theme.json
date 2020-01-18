@@ -15,16 +15,17 @@
 		"dropdown.border": "#d3af86",
 		"editor.background": "#fdf6e3",
 		"editor.lineHighlightBackground": "#eee8d5",
-		"editor.selectionBackground": "#eee8d5",
+		"editor.selectionBackground": "#93a1a1bb",
 		"editorCursor.background": "#fdf6e3",
 		"editorCursor.foreground": "#dc322f",
 		"editorGroup.border": "#ddd6c1",
 		"editorGroup.dropBackground": "#ddd6c1aa",
 		"editorGroupHeader.tabsBackground": "#d9d2c2",
 		"editorHoverWidget.background": "#ccc4b0",
-		"editorIndentGuide.activeBackground": "#081e2580",
-		"editorIndentGuide.background": "#586e7580",
+		"editorIndentGuide.activeBackground": "#081e2590",
+		"editorIndentGuide.background": "#586e7555",
 		"editorLineNumber.activeForeground": "#567983",
+		"editorLineNumber.foreground": "#586e7580",
 		"editorWhitespace.foreground": "#586e7580",
 		"editorWidget.background": "#eee8d5",
 		"extensionButton.prominentBackground": "#b58900",
@@ -83,6 +84,8 @@
 		"terminal.ansiYellow": "#b58900",
 		"titleBar.activeBackground": "#eee8d5",
 		"walkThrough.embeddedEditorBackground": "#00000014",
+		"editorBracketMatch.background": "#ccc4b0",
+		// "editorBracketMatch.border": "#000000",
 		//"activityBar.activeBorder": "#584c27",
 		//"activityBar.inactiveForeground": "#584c2766",
 		//"activityBarBadge.foreground": "#ffffff",
@@ -131,8 +134,6 @@
 		//"editor.wordHighlightBackground": "#57575740",
 		//"editor.wordHighlightStrongBackground": "#0e639c40",
 		//"editorActiveLineNumber.foreground": "#0b216f",
-		//"editorBracketMatch.background": "#0064001a",
-		//"editorBracketMatch.border": "#b9b9b9",
 		//"editorCodeLens.foreground": "#999999",
 		//"editorError.foreground": "#e51400",
 		//"editorGroupHeader.noTabsBackground": "#fdf6e3",
@@ -148,7 +149,6 @@
 		//"editorInfo.foreground": "#75beff",
 		//"editorLightBulb.foreground": "#ddb100",
 		//"editorLightBulbAutoFix.foreground": "#007acc",
-		//"editorLineNumber.foreground": "#237893",
 		//"editorLink.activeForeground": "#0000ff",
 		//"editorMarkerNavigation.background": "#ffffff",
 		//"editorMarkerNavigationError.background": "#e51400",
@@ -358,7 +358,8 @@ $green:     #859900;
 		{
 			"scope": [
 				"meta.embedded",
-				"source.groovy.embedded"
+				"source.groovy.embedded",
+				"soruce"
 			],
 			"settings": {
 				"foreground": "#586e75"
@@ -372,7 +373,7 @@ $green:     #859900;
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#839496"
+				"foreground": "#839496aa"
 			}
 		},
 		{
@@ -511,10 +512,22 @@ $green:     #859900;
 			}
 		},
 		{
+			"name": "Embedded Source",
+			"scope": [
+				"string source",
+				"text source",
+				"meta.embedded.line variable"
+			],
+			"settings": {
+				"foreground": "#073642"
+			}
+		},
+		{
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#073642"
+				"foreground": "#073642",
+				"fontStyle": "bold"
 			}
 		},
 		{
