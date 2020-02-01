@@ -359,7 +359,7 @@ $green:     #859900;
 			"scope": [
 				"meta.embedded",
 				"source.groovy.embedded",
-				"soruce"
+				"source"
 			],
 			"settings": {
 				"foreground": "#586e75"
@@ -508,7 +508,7 @@ $green:     #859900;
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#657b83"
+				"foreground": "#657b83e0"
 			}
 		},
 		{
@@ -746,13 +746,23 @@ $green:     #859900;
 			}
 		},
 		{
-			"name": "Markup Styling",
+			"name": "Markup Styling Italic",
 			"scope": [
-				"markup.bold",
 				"markup.italic"
 			],
 			"settings": {
-				"foreground": "#657b83"
+				"foreground": "#657b83",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup Styling Bold",
+			"scope": [
+				"markup.bold"
+			],
+			"settings": {
+				"foreground": "#657b83",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -760,7 +770,7 @@ $green:     #859900;
 			"scope": "markup.inline.raw",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#073642"
+				"foreground": "#657b83"
 			}
 		},
 		{
