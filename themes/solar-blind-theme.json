@@ -448,17 +448,20 @@ $green:     #859900;
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"support.variable"
+				"support.variable",
+				"meta.function-call.arguments"
 			],
 			"settings": {
-				"foreground": "#586e75"
+				"foreground": "#586e75",
+				"fontStyle": ""
 			}
 		},
 		{
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
-				"support.function"
+				"support.function",
+				"meta.function-call"
 			],
 			"settings": {
 				"foreground": "#073642",
@@ -498,10 +501,12 @@ $green:     #859900;
 			"scope": [
 				"constant.numeric",
 				"constant.character",
+				"constant.language.symbol",
 				"constant"
 			],
 			"settings": {
-				"foreground": "#073642"
+				"foreground": "#073642",
+				"fontStyle": ""
 			}
 		},
 		{
