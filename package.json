@@ -17,24 +17,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "pale green",
-                "uiTheme": "vs",
-                "path": "./themes/pale green-color-theme.json"
-            },
-            {
-                "label": "solar-saa",
-                "uiTheme": "vs",
-                "path": "./themes/solar-saa-theme.json"
-            },
-            {
                 "label": "solar-blind",
                 "uiTheme": "vs",
                 "path": "./themes/solar-blind-theme.json"
             },
             {
-                "label": "light-saa",
+                "label": "dark-blind",
                 "uiTheme": "vs",
-                "path": "./themes/light-saa-theme.json"
+                "path": "./themes/dark-blind-theme.json"
             }
         ]
     }
