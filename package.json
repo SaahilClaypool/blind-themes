@@ -22,6 +22,11 @@
                 "path": "./themes/solar-blind-theme.json"
             },
             {
+                "label": "light-blind",
+                "uiTheme": "vs",
+                "path": "./themes/light-blind-theme.json"
+            },
+            {
                 "label": "dark-blind",
                 "uiTheme": "vs",
                 "path": "./themes/dark-blind-theme.json"
