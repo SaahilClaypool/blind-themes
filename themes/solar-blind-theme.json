@@ -84,7 +84,7 @@
 		"terminal.ansiYellow": "#b58900",
 		"titleBar.activeBackground": "#fdf6e3",
 		"walkThrough.embeddedEditorBackground": "#00000014",
-		"editorBracketMatch.background": "#ccc4b0",
+		"editorBracketMatch.background": "#00000065",
 		"scrollbar.shadow": "#999999",
 		"scrollbarSlider.background": "#00000024",
 		"titleBar.inactiveBackground": "#eee8d5",
