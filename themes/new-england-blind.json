@@ -91,7 +91,7 @@
 		"editorOverviewRuler.modifiedForeground": "#66afe0",
 		"editorOverviewRuler.rangeHighlightForeground": "#cac0a9",
 		"editorOverviewRuler.selectionHighlightForeground": "#d6d0bf",
-		"editorOverviewRuler.warningForeground": "#d33682",
+		"editorOverviewRuler.warningForeground": "#ad9509",
 		"editorOverviewRuler.wordHighlightForeground": "#afada5",
 		"editorOverviewRuler.wordHighlightStrongForeground": "#268bd2",
 		"editorPane.background": "#f0e5c9",
@@ -102,7 +102,7 @@
 		"editorSuggestWidget.highlightForeground": "#ad5838",
 		"editorSuggestWidget.selectedBackground": "#e3d8be",
 		"editorUnnecessaryCode.opacity": "#000000b3",
-		"editorWarning.foreground": "#d33682",
+		"editorWarning.foreground": "#ad9509",
 		"editorWhitespace.foreground": "#86816a",
 		"editorWidget.background": "#f0e5c9",
 		"editorWidget.border": "#afada5",
@@ -135,7 +135,7 @@
 		"inputValidation.infoBackground": "#f0e5c9",
 		"inputValidation.infoBorder": "#afada5",
 		"inputValidation.warningBackground": "#f0e5c9",
-		"inputValidation.warningBorder": "#d33682",
+		"inputValidation.warningBorder": "#ad9509",
 		"list.activeSelectionBackground": "#fdf6e5",
 		"list.activeSelectionForeground": "#3a485b",
 		"list.dropBackground": "#b1a89490",
@@ -148,7 +148,7 @@
 		"list.inactiveSelectionBackground": "#fce9bc",
 		"list.inactiveSelectionForeground": "#3a485b",
 		"list.invalidItemForeground": "#c62d2a",
-		"list.warningForeground": "#bd3073",
+		"list.warningForeground": "#ad9509",
 		"listFilterWidget.background": "#fdf6e5",
 		"listFilterWidget.noMatchesOutline": "#dc322f",
 		"listFilterWidget.outline": "#afada5",
@@ -289,7 +289,7 @@ $base3:     #fdf6e3; // background
 $yellow:    #b58900;
 $orange:    #cb4b16;
 $red:       #dc322f;
-$magenta:   #d33682;
+$magenta:   #ad9509;
 $violet:    #6c71c4;
 $blue:      #268bd2;
 $cyan:      #2aa198;
