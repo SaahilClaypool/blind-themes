@@ -88,7 +88,7 @@
 		"editorOverviewRuler.findMatchForeground": "#afada5",
 		"editorOverviewRuler.incomingContentForeground": "#859900",
 		"editorOverviewRuler.infoForeground": "#2aa198",
-		"editorOverviewRuler.modifiedForeground": "#ad5838",
+		"editorOverviewRuler.modifiedForeground": "#66afe0",
 		"editorOverviewRuler.rangeHighlightForeground": "#cac0a9",
 		"editorOverviewRuler.selectionHighlightForeground": "#d6d0bf",
 		"editorOverviewRuler.warningForeground": "#d33682",
