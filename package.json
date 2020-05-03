@@ -35,6 +35,11 @@
                 "label": "new-england-blind",
                 "uiTheme": "vs",
                 "path": "./themes/new-england-blind.json"
+            },
+            {
+                "label": "new-england-bright",
+                "uiTheme": "vs",
+                "path": "./themes/new-england-bright.json"
             }
         ]
     }
