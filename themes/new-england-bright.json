@@ -594,8 +594,6 @@ $green:     #859900;
                 "entity.name.variable.parameter.cs",
                 "markup.heading.asciidoc",
                 "markup.heading.block-attribute.asciidoc",
-                "markup.list meta.paragraph.markdown",
-                "markup.meta.attribute-list.asciidoc",
                 "meta.function-call.java",
                 "meta.function.parameters variable.other.readwrite",
                 "meta.function.parameters.js variable.other.readwrite.js",
