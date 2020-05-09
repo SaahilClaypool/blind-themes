@@ -1,12 +1,12 @@
 {
-    "name": "pale-green",
+    "name": "blind-themes",
     "publisher": "saahilclaypool",
-    "displayName": "pale-green",
+    "displayName": "blind-themes",
     "repository": {
         "type": "git",
-        "url": "https://github.com/SaahilClaypool/pale-green"
+        "url": "https://github.com/SaahilClaypool/blind-themes"
     },
-    "description": "pale green theme",
+    "description": "color blind themes",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.33.0"

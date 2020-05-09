@@ -1,8 +1,8 @@
-# Pale Green
+# Low contrast / no color themes 
 
-![img](https://github.com/SaahilClaypool/pale-green/raw/master/light-saa.png)
+![img](https://github.com/SaahilClaypool/pale-green/raw/master/blind.png)
 
- 
+## Publishing
 
-- vsce package --> make a new 
-- vscode --install-extension ./pale-gree.* --> install extension
+- vsce package
+- vsce publish
