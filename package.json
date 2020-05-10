@@ -40,6 +40,11 @@
                 "label": "new-england-bright",
                 "uiTheme": "vs",
                 "path": "./themes/new-england-bright.json"
+            },
+            {
+                "label": "pale-green",
+                "uiTheme": "vs",
+                "path": "./themes/pale-green.json"
             }
         ]
     }
