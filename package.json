@@ -7,7 +7,7 @@
         "url": "https://github.com/SaahilClaypool/blind-themes"
     },
     "description": "color blind themes",
-    "version": "0.1.0",
+    "version": "0.3.0",
     "engines": {
         "vscode": "^1.33.0"
     },
@@ -16,6 +16,11 @@
     ],
     "contributes": {
         "themes": [
+            {
+                "label": "solar-quiet",
+                "uiTheme": "vs",
+                "path": "./themes/solar-quiet-theme.json"
+            },
             {
                 "label": "solar-blind",
                 "uiTheme": "vs",
