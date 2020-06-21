@@ -365,7 +365,10 @@
                 "markup.ignored",
                 "markup.untracked",
                 "meta.diff.header",
-                "meta.output"
+                "meta.output",
+                "keyword.operator.symbole",
+                "keyword.other.mark",
+                "keyword.operator"
             ],
             "settings": {
                 "foreground": "#005CC5"
@@ -374,8 +377,6 @@
         {
             "name": "",
             "scope": [
-                "keyword.operator.symbole",
-                "keyword.other.mark",
                 "variable.parameter.function",
                 "storage.modifier.package",
                 "storage.modifier.import",
@@ -384,8 +385,8 @@
                 "string source",
                 "markup.list",
                 "meta.function-call support.function",
+                "support.function",
                 "meta.function-call entity.name.function",
-                "keyword.operator"
             ],
             "settings": {
                 "foreground": "#000000"
@@ -439,7 +440,7 @@
                 "string.regexp string.regexp.arbitrary-repitition"
             ],
             "settings": {
-                "foreground": "#032F62"
+                "foreground": "#04448c"
             }
         },
         {
@@ -458,7 +459,7 @@
                 "sublimelinter.mark.warning"
             ],
             "settings": {
-                "foreground": "#E36209"
+                "foreground": "#994106"
             }
         },
         {
