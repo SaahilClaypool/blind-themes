@@ -9,7 +9,7 @@
     "description": "color blind themes",
     "version": "0.7.0",
     "engines": {
-        "vscode": "^1.33.0"
+        "vscode": "^1.47.0"
     },
     "categories": [
         "Themes"
@@ -50,6 +50,11 @@
                 "label": "pale-green",
                 "uiTheme": "vs",
                 "path": "./themes/pale-green.json"
+            },
+            {
+                "label": "quiet-github",
+                "uiTheme": "vs",
+                "path": "./themes/quiet-github.json"
             }
         ]
     }

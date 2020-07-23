@@ -19,6 +19,10 @@
 
 ### Pale Green
 
+**test**
+*test*
+`test`
+
 Light green background ala kindle.
 
 ![img](https://github.com/SaahilClaypool/blind-themes/raw/master/theme.png)
