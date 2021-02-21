@@ -14,7 +14,7 @@
         "dropdown.background": "#eee8d5",
         "dropdown.border": "#d3af86",
         "editor.background": "#fdf6e3",
-        "editor.lineHighlightBackground": "#f5f0e0",
+        "editor.lineHighlightBackground": "#eee8d5",
         "editor.selectionBackground": "#93a1a1bb",
         "editorCursor.background": "#fdf6e3",
         "editorCursor.foreground": "#dc322f",
@@ -421,10 +421,18 @@
             "scope": [
                 "keyword",
                 "storage",
-                "storage.type"
             ],
             "settings": {
                 "foreground": "#992631"
+            }
+        },
+        {
+            "name": "",
+            "scope": [
+                "storage.type"
+            ],
+            "settings": {
+                "foreground": "#267F99"
             }
         },
         {
