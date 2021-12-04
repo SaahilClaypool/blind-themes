@@ -764,5 +764,14 @@
 				"foreground": "#800080"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"local": "#000000",
+		"class": "#6F42C1",
+		"extensionMethod": "#000000",
+		"field": "#000000",
+		"method": "#000000",
+		"parameter": "#800080"
+	}
 }
