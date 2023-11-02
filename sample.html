@@ -1,0 +1,65 @@
+@{
+}
+<style>
+  .selected {
+    border: 1px solid black;
+    padding: 2px;
+  }
+</style>
+
+<input id="searchInput" autocomplete="off" name="search" placeholder="search" h hx-get="/search/complete"
+  hx-trigger="keyup changed delay:500ms, search" hx-target="#results" hx-swap="innerHTML">
+
+<div x-data="SearchResults" x-bind="triggers" id="results">
+</div>
+
+<script>
+  document.addEventListener('alpine:init', () => {
+    Alpine.data('SearchResults', () => ({
+      selected: -1,
+      triggers: {
+        'x-on:click': "down",
+        'x-on:keyup.window.down': "down",
+        'x-on:keyup.window.up': "up",
+        'x-on:keyup.window.enter': "select"
+      },
+      down() {
+        this.selected = this.selected + 1;
+        if (this.childCount <= this.selected)
+          this.selected = -1
+        this.highlight()
+      },
+      up() {
+        this.selected = this.selected - 1;
+        if (this.selected < 0)
+          this.selected = -1;
+        this.highlight()
+      },
+      valid() { return (this.selected >= 0) && (this.selected < this.items.length) },
+      /**
+      * @@type HTMLElement[]
+      */
+      get items() {
+        return this.$el.$$("li")
+      },
+      highlight() {
+        let i = 0;
+        this.items.forEach(child => {
+          if (i == this.selected) {
+            child.classList.add("selected")
+          } else {
+            child.classList.remove("selected")
+          }
+          i += 1;
+
+        })
+      },
+      select() {
+        if (this.valid()) {
+          let selectedItem = this.items[this.selected]
+          $("#searchInput").value = selectedItem.attributes.value.value
+        }
+      }
+    }))
+  })
+</script>
